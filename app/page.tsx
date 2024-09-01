@@ -1,7 +1,9 @@
+import { RSSForm } from '@/components/rss';
+
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      Todo
+    <section className="flex flex-col items-center justify-center gap-4 mt-10 py-8 md:py-10 md:mt-0">
+      <RSSForm />
     </section>
   );
 }
